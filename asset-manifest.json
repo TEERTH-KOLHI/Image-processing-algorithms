@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Image-processing-algorithms/static/css/main.3bfe1b55.css",
+    "main.js": "/Image-processing-algorithms/static/js/main.4590c37b.js",
+    "index.html": "/Image-processing-algorithms/index.html",
+    "main.3bfe1b55.css.map": "/Image-processing-algorithms/static/css/main.3bfe1b55.css.map",
+    "main.4590c37b.js.map": "/Image-processing-algorithms/static/js/main.4590c37b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3bfe1b55.css",
+    "static/js/main.4590c37b.js"
+  ]
+}
