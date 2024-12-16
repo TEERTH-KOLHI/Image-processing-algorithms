@@ -1,0 +1,133 @@
+/* Global styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  flex-direction: column;
+  padding: 20px;
+}
+
+/* Header */
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Input Section */
+input[type='file'] {
+  display: block;
+  margin: 20px auto;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+select {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin: 10px auto;
+  display: block;
+}
+
+button {
+  padding: 12px 20px;
+  font-size: 16px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: block;
+  margin: 20px auto;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* Image Section */
+canvas {
+  border: 1px solid #ccc;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 20px auto;
+}
+
+div {
+  width: 100%;
+  max-width: 600px; /* Make sure images and content are not too wide */
+  margin-bottom: 30px;
+}
+
+/* Original and Processed Image Containers */
+h3 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+  body {
+    padding: 15px;
+  }
+
+  input[type='file'],
+  select,
+  button {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  canvas {
+    width: 100%; /* Ensure images are responsive */
+  }
+}
+
+/* Tablet View */
+@media (max-width: 1024px) {
+  div {
+    max-width: 500px;
+  }
+
+  select {
+    font-size: 14px;
+  }
+
+  button {
+    font-size: 14px;
+  }
+}
+
+/* Mobile View */
+@media (max-width: 480px) {
+  body {
+    padding: 10px;
+  }
+
+  select,
+  input[type='file'],
+  button {
+    font-size: 14px;
+  }
+
+  div {
+    width: 100%;
+  }
+
+  canvas {
+    max-width: 100%;
+  }
+}
