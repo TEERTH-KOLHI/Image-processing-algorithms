@@ -109,7 +109,7 @@ Contributions are welcome! If you'd like to enhance the project, follow these st
 
 If you have any questions or suggestions, feel free to reach out:
 
-- **GitHub**: [your-username](https://github.com/TEERTH-KOLHI)
+- **GitHub**: [TEERTH-KOLHI](https://github.com/TEERTH-KOLHI)
 - **Email**: ...
 
 ---
